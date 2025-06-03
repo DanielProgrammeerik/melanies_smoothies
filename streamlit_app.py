@@ -26,8 +26,8 @@ st.stop()
 
 ingredients_list = st.multiselect(
     'Choose up to 5 ingredients:'
-    , my_dataframe
-)
+    , my_dataframe)
+
 if ingredients_list:
     st.write(ingredients_list)
     st.text(ingredients_list)
